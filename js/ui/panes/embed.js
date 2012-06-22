@@ -302,7 +302,7 @@ qwebirc.ui.Panes.Embed.pclass = new Class({
     else if (chans != "" && nick != "")
       URL.push("prompt=0");
 
-    return conf.frontend.base_url + (URL.length>0?"?":"") + URL.join("&");
+    return "http://webchat.snoonet.com/" + (URL.length>0?"?":"") + URL.join("&");
   }
 });
 
